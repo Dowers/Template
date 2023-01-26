@@ -34,8 +34,6 @@ export default function Experience() {
 
 	return (
 		<>
-			{/* Jen has the portfolio idea */}
-			{/* Make it insane but keep performace in mind */}
 			{perfVisible ? <Perf position='top-left' /> : null}
 			<OrbitControls makeDefault />
 			<ambientLight />
